@@ -2,7 +2,7 @@
 
 Solución de referencia para el sistema de gestión de multas de biblioteca de la UFPS. Un único proyecto Spring Boot expone una API REST en capas y permite pagar multas en línea mediante dos pasarelas seleccionables por configuración.
 
-> Antes de entregar: el repositorio usa el apellido Garcia y personaliza nombre/código en los datos que te solicite la plataforma. Este paquete no incluye un remoto GitHub ni capturas de ejecución.
+> Antes de entregar: personaliza cualquier dato que te solicite la plataforma. El repositorio ya está publicado; agrega capturas reales de los endpoints después de ejecutarlos.
 
 ## Requisitos y ejecución
 
@@ -79,5 +79,5 @@ El puerto protege al caso de uso de cambios en proveedores y deja la traducción
 
 ## Evidencia y publicación
 
-Después de ejecutar la aplicación, captura en Postman o curl los casos principales (creación, validación 400, límite 409, pago en ventanilla, pago en línea exitoso y rechazado) y agrégalos en `docs/` o al README. Inicializa Git en la carpeta `apellido-post1-u7/`, crea al menos tres commits por parte con mensajes descriptivos, publica el repositorio `apellido-post1-u7` como público y entrega su enlace en NPLAD UFPS.
+Después de ejecutar la aplicación, captura en Postman o curl los casos principales (creación, validación 400, límite 409, pago en ventanilla, pago en línea exitoso y rechazado) y agrégalos en `docs/` o al README. El repositorio público `garcia-post1-u7` ya tiene tres commits por parte. Entrega su enlace en NPLAD UFPS.
 
